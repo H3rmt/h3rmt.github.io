@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>H3rmt Testing Github Pages</title>
+    <link>https://h3rmt.github.io/</link>
+    <description>Recent content on H3rmt Testing Github Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2023 20:48:14 +0100</lastBuildDate><atom:link href="https://h3rmt.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://h3rmt.github.io/posts/my-first-post/</link>
+      <pubDate>Sun, 01 Jan 2023 20:48:14 +0100</pubDate>
+      
+      <guid>https://h3rmt.github.io/posts/my-first-post/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!
+More test</description>
+    </item>
+    
+  </channel>
+</rss>
