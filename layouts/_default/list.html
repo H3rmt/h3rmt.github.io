@@ -54,6 +54,7 @@
 
 {{- $term := .Data.Term }}
 
+{{- if .IsHome }}
 {{- $websites := where site.Pages "Params.type" "==" "site" }}
 {{- $websites = where $websites "Params.hiddenInHomeList" "!=" "true" }}
 
@@ -81,12 +82,14 @@
           </svg>
         </span>
         {{- end }}
-      </h2>
+        </h2>
     </header>
-    <a class="entry-link" aria-label="website link to {{ .Title | plainify }}" href="{{ .Params.Link }}" target="_blank"></a>
+    <a class="entry-link" aria-label="website link to {{ .Title | plainify }}" href="{{ .Params.Link }}"
+      target="_blank"></a>
   </article>
   {{- end }}
 </div>
+{{- end }}
 
 <div class="post-list">
   {{- range $index, $page := $paginator.Pages }}
