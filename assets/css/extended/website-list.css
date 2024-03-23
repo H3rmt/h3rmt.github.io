@@ -9,4 +9,9 @@
 
 .website-list>.post-entry {
     margin-bottom: 0;
+    background: rgb(67, 142, 202);
+}
+
+.website-list>.post-entry>header>h4 {
+    color: var(--theme);
 }
