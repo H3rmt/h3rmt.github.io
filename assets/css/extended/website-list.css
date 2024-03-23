@@ -1,0 +1,12 @@
+.website-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: var(--gap);
+
+    margin-bottom: calc(var(--gap) * 2);
+    margin-top: var(--gap);
+}
+
+.website-list>.post-entry {
+    margin-bottom: 0;
+}
