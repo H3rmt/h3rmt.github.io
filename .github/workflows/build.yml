@@ -24,9 +24,9 @@ jobs:
         run: hugo --minify
 
       - name: Zip public folder
-        run: zip -r public.zip public
+        run: cd public && zip -r public.zip .
 
       - name: Upload public folder as zip to GitHub release
         uses: softprops/action-gh-release@v2
         with:
-          files: ./public.zip
+          files: ./public/public.zip

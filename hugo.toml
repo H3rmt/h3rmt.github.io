@@ -9,7 +9,7 @@ params.showShareButtons = true
 
 [params.homeInfoParams]
 title = "H3rmt Homepage"
-Content = "Welcome to H3rmt's Homepage. This is a place where I share my thoughts, ideas, and projects. I hope you enjoy your stay."
+Content = "Welcome to H3rmt's Homepage."
 
 [[menu.main]]
 identifier = 'sites'
